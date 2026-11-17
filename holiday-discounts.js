@@ -16,9 +16,9 @@
     {
       id:'thanksgiving-2026',
       title:'Thanksgiving Special',
-      starts:'2026-11-16', ends:'2026-11-26',
-      previewStarts:'2026-11-09', previewEnds:'2026-11-26',
-      dates:'November 16–26, 2026 · Available During Open Hours',
+      starts:'2026-11-16', ends:'2026-11-25',
+      previewStarts:'2026-11-09', previewEnds:'2026-11-25',
+      dates:'November 16–20 & 23–25, 2026 · Weekdays During Open Hours',
       theme:'holiday',
       percent:20,
       services:'Holiday Promotion'
@@ -26,9 +26,9 @@
     {
       id:'black-friday-2026',
       title:'Black Friday Special',
-      starts:'2026-11-27', ends:'2026-12-02',
+      starts:'2026-11-30', ends:'2026-12-02',
       previewStarts:'2026-11-20', previewEnds:'2026-12-02',
-      dates:'November 27–December 2, 2026 · Available During Open Hours',
+      dates:'November 30–December 2, 2026 · Weekdays During Open Hours',
       theme:'black-friday',
       percent:20,
       services:'Holiday Promotion'
@@ -38,7 +38,7 @@
       title:'Christmas Special',
       starts:'2026-12-21', ends:'2026-12-30',
       previewStarts:'2026-12-14', previewEnds:'2026-12-30',
-      dates:'December 21–30, 2026 · Available During Open Hours',
+      dates:'December 21–25 & 28–30, 2026 · Weekdays During Open Hours',
       theme:'holiday',
       percent:20,
       services:'Holiday Promotion'
@@ -55,13 +55,15 @@
     percent:10,
     services:'First-Time Alterations · 10% Off'
   };
-  const eligibleToday=holiday && today>=holiday.starts && today<=holiday.ends && openToday;
-  const withinHolidayDates=holiday && today>=holiday.starts && today<=holiday.ends;
+  // Coupons are never redeemable on weekends or on the November 26–27 closure.
+  const closedForPromotion=today==='2026-11-26'||today==='2026-11-27'||['Sat','Sun'].includes(parts.weekday);
+  const eligibleToday=holiday && today>=holiday.starts && today<=holiday.ends && !closedForPromotion && openToday;
+  const withinHolidayDates=holiday && today>=holiday.starts && today<=holiday.ends && !closedForPromotion;
   const status=holiday
-    ? (eligibleToday?'AVAILABLE NOW':withinHolidayDates?'VALID DURING OPEN HOURS':'COMING SOON')
+    ? (eligibleToday?'AVAILABLE NOW':withinHolidayDates?'VALID DURING OPEN HOURS':'NOT VALID TODAY')
     : (openToday?'AVAILABLE NOW':'VALID DURING OPEN HOURS');
   const offerFineprint=holiday
-    ? 'Holiday promotions are 20% off during the listed business days and open hours. Wedding gowns are offered separately at up to 10% off per purchase. Offers cannot be combined. Confirm eligibility in store.'
+    ? 'Holiday promotions are 20% off during the listed weekdays and open hours, excluding November 26–27. Wedding gowns are offered separately at up to 10% off per purchase. Offers cannot be combined. Confirm eligibility in store.'
     : 'First-time alterations only. 10% off during regular business days and open hours. Cannot be combined with other discounts. Confirm eligibility in store.';
 
   const storageKey='cv-holiday-promo-dismissed-v6-'+offer.id+'-'+status;
