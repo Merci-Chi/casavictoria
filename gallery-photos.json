@@ -1,0 +1,508 @@
+{
+  "categories": {
+    "Wedding": [
+      {
+        "name": "1.png",
+        "src": "images/gallery/1.png",
+        "label": "front view",
+        "alt": "Wedding dress front view",
+        "caption": "Front view"
+      },
+      {
+        "name": "2.png",
+        "src": "images/gallery/2.png",
+        "label": "back view",
+        "alt": "Wedding dress back view",
+        "caption": "Back view"
+      },
+      {
+        "name": "3.png",
+        "src": "images/gallery/3.png",
+        "label": "side view",
+        "alt": "Wedding dress side view",
+        "caption": "Side view"
+      },
+      {
+        "name": "5.png",
+        "src": "images/gallery/5.png"
+      },
+      {
+        "name": "6.png",
+        "src": "images/gallery/6.png"
+      },
+      {
+        "name": "7.png",
+        "src": "images/gallery/7.png"
+      },
+      {
+        "name": "8.png",
+        "src": "images/gallery/8.png"
+      },
+      {
+        "name": "9.png",
+        "src": "images/gallery/9.png"
+      },
+      {
+        "name": "10.png",
+        "src": "images/gallery/10.png"
+      },
+      {
+        "name": "11.png",
+        "src": "images/gallery/11.png"
+      },
+      {
+        "name": "12.png",
+        "src": "images/gallery/12.png"
+      },
+      {
+        "name": "13.png",
+        "src": "images/gallery/13.png"
+      },
+      {
+        "name": "14.png",
+        "src": "images/gallery/14.png"
+      },
+      {
+        "name": "15.png",
+        "src": "images/gallery/15.png"
+      }
+    ],
+    "Tuxedos": [
+      {
+        "name": "16.png",
+        "src": "images/gallery/16.png"
+      },
+      {
+        "name": "17.png",
+        "src": "images/gallery/17.png"
+      },
+      {
+        "name": "18.png",
+        "src": "images/gallery/18.png"
+      }
+    ],
+    "Dresses": [
+      {
+        "name": "19.png",
+        "src": "images/gallery/19.png"
+      },
+      {
+        "name": "20.png",
+        "src": "images/gallery/20.png"
+      },
+      {
+        "name": "21.png",
+        "src": "images/gallery/21.png"
+      },
+      {
+        "name": "22.png",
+        "src": "images/gallery/22.png"
+      }
+    ],
+    "Fabrics": [
+      {
+        "name": "23.png",
+        "src": "images/gallery/23.png"
+      },
+      {
+        "name": "24.png",
+        "src": "images/gallery/24.png"
+      },
+      {
+        "name": "25.png",
+        "src": "images/gallery/25.png"
+      },
+      {
+        "name": "26.png",
+        "src": "images/gallery/26.png"
+      },
+      {
+        "name": "27.png",
+        "src": "images/gallery/27.png"
+      },
+      {
+        "name": "28.png",
+        "src": "images/gallery/28.png"
+      },
+      {
+        "name": "29.png",
+        "src": "images/gallery/29.png"
+      },
+      {
+        "name": "30.png",
+        "src": "images/gallery/30.png"
+      },
+      {
+        "name": "31.png",
+        "src": "images/gallery/31.png"
+      },
+      {
+        "name": "32.png",
+        "src": "images/gallery/32.png"
+      },
+      {
+        "name": "33.png",
+        "src": "images/gallery/33.png"
+      },
+      {
+        "name": "34.png",
+        "src": "images/gallery/34.png"
+      },
+      {
+        "name": "35.png",
+        "src": "images/gallery/35.png"
+      },
+      {
+        "name": "36.png",
+        "src": "images/gallery/36.png"
+      },
+      {
+        "name": "37.png",
+        "src": "images/gallery/37.png"
+      },
+      {
+        "name": "38.png",
+        "src": "images/gallery/38.png"
+      },
+      {
+        "name": "39.png",
+        "src": "images/gallery/39.png"
+      },
+      {
+        "name": "40.png",
+        "src": "images/gallery/40.png"
+      },
+      {
+        "name": "41.png",
+        "src": "images/gallery/41.png"
+      },
+      {
+        "name": "42.png",
+        "src": "images/gallery/42.png"
+      },
+      {
+        "name": "43.png",
+        "src": "images/gallery/43.png"
+      }
+    ],
+    "Behind the Scenes": [
+      {
+        "name": "44.png",
+        "src": "images/gallery/44.png",
+        "label": "Dress — Before",
+        "alt": "Dress before alterations, long flowing dress",
+        "caption": "Dress — Before"
+      },
+      {
+        "name": "45.png",
+        "src": "images/gallery/45.png"
+      },
+      {
+        "name": "46.png",
+        "src": "images/gallery/46.png",
+        "label": "Corset — Before",
+        "alt": "Corset before alterations",
+        "caption": "Corset — Before"
+      },
+      {
+        "name": "47.png",
+        "src": "images/gallery/47.png",
+        "label": "Corset — After",
+        "alt": "Corset after alterations",
+        "caption": "Corset — After"
+      },
+      {
+        "name": "48.png",
+        "src": "images/gallery/48.png",
+        "label": "Dress — After",
+        "alt": "Dress after alterations, shortened dress",
+        "caption": "Dress — After"
+      },
+      {
+        "name": "49.png",
+        "src": "images/gallery/49.png"
+      },
+      {
+        "name": "50.png",
+        "src": "images/gallery/50.png"
+      },
+      {
+        "name": "51.png",
+        "src": "images/gallery/51.png"
+      },
+      {
+        "name": "52.png",
+        "src": "images/gallery/52.png"
+      }
+    ],
+    "Other": [
+      {
+        "name": "53.png",
+        "src": "images/gallery/53.png"
+      },
+      {
+        "name": "54.png",
+        "src": "images/gallery/54.png"
+      },
+      {
+        "name": "55.png",
+        "src": "images/gallery/55.png"
+      },
+      {
+        "name": "56.png",
+        "src": "images/gallery/56.png"
+      },
+      {
+        "name": "57.png",
+        "src": "images/gallery/57.png"
+      }
+    ]
+  },
+  "allPhotos": [
+    {
+      "name": "1.png",
+      "src": "images/gallery/1.png",
+      "label": "front view",
+      "alt": "Wedding dress front view",
+      "caption": "Front view"
+    },
+    {
+      "name": "2.png",
+      "src": "images/gallery/2.png",
+      "label": "back view",
+      "alt": "Wedding dress back view",
+      "caption": "Back view"
+    },
+    {
+      "name": "3.png",
+      "src": "images/gallery/3.png",
+      "label": "side view",
+      "alt": "Wedding dress side view",
+      "caption": "Side view"
+    },
+    {
+      "name": "5.png",
+      "src": "images/gallery/5.png"
+    },
+    {
+      "name": "6.png",
+      "src": "images/gallery/6.png"
+    },
+    {
+      "name": "7.png",
+      "src": "images/gallery/7.png"
+    },
+    {
+      "name": "8.png",
+      "src": "images/gallery/8.png"
+    },
+    {
+      "name": "9.png",
+      "src": "images/gallery/9.png"
+    },
+    {
+      "name": "10.png",
+      "src": "images/gallery/10.png"
+    },
+    {
+      "name": "11.png",
+      "src": "images/gallery/11.png"
+    },
+    {
+      "name": "12.png",
+      "src": "images/gallery/12.png"
+    },
+    {
+      "name": "13.png",
+      "src": "images/gallery/13.png"
+    },
+    {
+      "name": "14.png",
+      "src": "images/gallery/14.png"
+    },
+    {
+      "name": "15.png",
+      "src": "images/gallery/15.png"
+    },
+    {
+      "name": "16.png",
+      "src": "images/gallery/16.png"
+    },
+    {
+      "name": "17.png",
+      "src": "images/gallery/17.png"
+    },
+    {
+      "name": "18.png",
+      "src": "images/gallery/18.png"
+    },
+    {
+      "name": "19.png",
+      "src": "images/gallery/19.png"
+    },
+    {
+      "name": "20.png",
+      "src": "images/gallery/20.png"
+    },
+    {
+      "name": "21.png",
+      "src": "images/gallery/21.png"
+    },
+    {
+      "name": "22.png",
+      "src": "images/gallery/22.png"
+    },
+    {
+      "name": "23.png",
+      "src": "images/gallery/23.png"
+    },
+    {
+      "name": "24.png",
+      "src": "images/gallery/24.png"
+    },
+    {
+      "name": "25.png",
+      "src": "images/gallery/25.png"
+    },
+    {
+      "name": "26.png",
+      "src": "images/gallery/26.png"
+    },
+    {
+      "name": "27.png",
+      "src": "images/gallery/27.png"
+    },
+    {
+      "name": "28.png",
+      "src": "images/gallery/28.png"
+    },
+    {
+      "name": "29.png",
+      "src": "images/gallery/29.png"
+    },
+    {
+      "name": "30.png",
+      "src": "images/gallery/30.png"
+    },
+    {
+      "name": "31.png",
+      "src": "images/gallery/31.png"
+    },
+    {
+      "name": "32.png",
+      "src": "images/gallery/32.png"
+    },
+    {
+      "name": "33.png",
+      "src": "images/gallery/33.png"
+    },
+    {
+      "name": "34.png",
+      "src": "images/gallery/34.png"
+    },
+    {
+      "name": "35.png",
+      "src": "images/gallery/35.png"
+    },
+    {
+      "name": "36.png",
+      "src": "images/gallery/36.png"
+    },
+    {
+      "name": "37.png",
+      "src": "images/gallery/37.png"
+    },
+    {
+      "name": "38.png",
+      "src": "images/gallery/38.png"
+    },
+    {
+      "name": "39.png",
+      "src": "images/gallery/39.png"
+    },
+    {
+      "name": "40.png",
+      "src": "images/gallery/40.png"
+    },
+    {
+      "name": "41.png",
+      "src": "images/gallery/41.png"
+    },
+    {
+      "name": "42.png",
+      "src": "images/gallery/42.png"
+    },
+    {
+      "name": "43.png",
+      "src": "images/gallery/43.png"
+    },
+    {
+      "name": "44.png",
+      "src": "images/gallery/44.png",
+      "label": "Dress — Before",
+      "alt": "Dress before alterations, long flowing dress",
+      "caption": "Dress — Before"
+    },
+    {
+      "name": "45.png",
+      "src": "images/gallery/45.png"
+    },
+    {
+      "name": "46.png",
+      "src": "images/gallery/46.png",
+      "label": "Corset — Before",
+      "alt": "Corset before alterations",
+      "caption": "Corset — Before"
+    },
+    {
+      "name": "47.png",
+      "src": "images/gallery/47.png",
+      "label": "Corset — After",
+      "alt": "Corset after alterations",
+      "caption": "Corset — After"
+    },
+    {
+      "name": "48.png",
+      "src": "images/gallery/48.png",
+      "label": "Dress — After",
+      "alt": "Dress after alterations, shortened dress",
+      "caption": "Dress — After"
+    },
+    {
+      "name": "49.png",
+      "src": "images/gallery/49.png"
+    },
+    {
+      "name": "50.png",
+      "src": "images/gallery/50.png"
+    },
+    {
+      "name": "51.png",
+      "src": "images/gallery/51.png"
+    },
+    {
+      "name": "52.png",
+      "src": "images/gallery/52.png"
+    },
+    {
+      "name": "53.png",
+      "src": "images/gallery/53.png"
+    },
+    {
+      "name": "54.png",
+      "src": "images/gallery/54.png"
+    },
+    {
+      "name": "55.png",
+      "src": "images/gallery/55.png"
+    },
+    {
+      "name": "56.png",
+      "src": "images/gallery/56.png"
+    },
+    {
+      "name": "57.png",
+      "src": "images/gallery/57.png"
+    }
+  ]
+}
